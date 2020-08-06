@@ -57,6 +57,24 @@ wildcards work for selecting multiple files.
 git add .
  
 -------------------------------------------------------------
+git commit opens notepad++ because I chose that editor when installing.
+if you use vim you have to type i for insert and press enter.
+make changes then
+esc to get out of insert mode.
+:wq
+
+-------------------------------------------------------------
+New text after commit.
+
+
+
+
+
+
+
+
+
+
 
 
 
