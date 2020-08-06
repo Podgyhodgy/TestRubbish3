@@ -77,6 +77,15 @@ git commit -m "This is my fourth commit."
 ------------------------------------------------------------
 test changes
 
+sixth commit test
+
+C:\Users\podgyhodgy\GitTest>git commit -m "This is my sixth commit." *.*
+On branch master
+nothing to commit, working tree clean
+
+NOTE THAT YOU MUST PUT FILENAME OR WILDCARD AFTER YOUR COMMENT.
+
+
 
 
 
