@@ -66,6 +66,17 @@ esc to get out of insert mode.
 -------------------------------------------------------------
 New text after commit.
 
+-------------------------------------------------------------
+After making changes you can type
+git commit -m This is my third commit.
+
+but got an error so, had to add quotes around the comment.  
+
+git commit -m "This is my fourth commit."
+
+------------------------------------------------------------
+test changes
+
 
 
 
