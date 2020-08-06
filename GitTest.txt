@@ -87,6 +87,62 @@ NOTE THAT YOU MUST PUT FILENAME OR WILDCARD AFTER YOUR COMMENT.
 
 Branch added
 
+--------------------------------------------------------------------
+
+C:\Users\podgyhodgy\GitTest>git branch MyBranch01
+
+C:\Users\podgyhodgy\GitTest>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\podgyhodgy\GitTest>git checkout MyBranch01
+Switched to branch 'MyBranch01'
+
+C:\Users\podgyhodgy\GitTest>git add *.*
+
+C:\Users\podgyhodgy\GitTest>git status
+On branch MyBranch01
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   BranchFile.txt
+        modified:   GitTest.txt
+
+
+C:\Users\podgyhodgy\GitTest>git commit -m "update branch 01" *.*
+[MyBranch01 530c339] update branch 01
+ 2 files changed, 3 insertions(+)
+ create mode 100644 BranchFile.txt
+
+C:\Users\podgyhodgy\GitTest>git status
+On branch MyBranch01
+nothing to commit, working tree clean
+
+C:\Users\podgyhodgy\GitTest>git checkout master
+Switched to branch 'master'
+
+C:\Users\podgyhodgy\GitTest>git checkout MyBranch01
+Switched to branch 'MyBranch01'
+
+C:\Users\podgyhodgy\GitTest>git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+C:\Users\podgyhodgy\GitTest>git checkout master
+Switched to branch 'master'
+
+C:\Users\podgyhodgy\GitTest>git merge MyBranch01
+Updating e59957a..530c339
+Fast-forward
+ BranchFile.txt | 1 +
+ GitTest.txt    | 2 ++
+ 2 files changed, 3 insertions(+)
+ create mode 100644 BranchFile.txt
+
+C:\Users\podgyhodgy\GitTest>
+
+-------------------------------------------------------------------------
+Did not get prompt for comment as to why the merge was needed.
+unlike the video.
+
 
 
 
